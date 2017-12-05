@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ADBA</string>
+    <string name="title_activity_server_connect">ServerConnect</string>
+    <string name="title_activity_phone_screen">PhoneScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_send_requests">sendRequests</string>
+</resources>

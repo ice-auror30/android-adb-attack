@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:textAlignment="center"
+        android:textColor="@color/bloodRed"
+        android:background="#101010"
+        android:text="HTTP://10.26.53.238:8000/test"
+        android:textSize="24dp"
+        android:id="@+id/command"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect Server"
+        android:layout_weight="1"
+        android:background="@color/bloodRed"
+        android:layout_gravity="center"
+        android:id="@+id/send_request"
+        android:onClick="sendRequest"/>
+
+</LinearLayout>
